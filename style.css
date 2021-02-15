@@ -1,21 +1,28 @@
 body {
-    background-image: url('https://i.imgur.com/g2yfzfx.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
+ background-color: darkslategray;
+    font-family: "Raleway";
     
     
 }
 
-/* .button {
-    
-} */
+.button {
+    color: black;
+}
 
 .link {
     font-weight: 800;
     color: black;
-    font-size: x-large;
+    font-size: small;
 }
 
-h1 {
-    
+.column {
+ font-family: "Raleway";   
+}
+
+.nav-menu {
+    font-family: "Satisfy";
+    text-align: center;
+    display: flex;
+     position: relative;
+  justify-content: center;
 }
