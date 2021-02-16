@@ -1,5 +1,5 @@
 body {
- background-color: darkslategray;
+ background-color: slategray;
     font-family: "Raleway";
     text-align: center;
     color: cornsilk;
@@ -30,6 +30,10 @@ nav ul {
     text-align: center;
 }
 
+ul {
+    padding-top: 2rem;
+}
+
 .column {
  font-family: "Raleway";   
 }
@@ -45,6 +49,7 @@ nav ul {
 .title {
     font-family: "Satisfy";
     font-size: 64px;
+    padding-top: 8rem;
 }
 
 .navbar-expand-lg {
