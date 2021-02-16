@@ -45,3 +45,8 @@ nav ul {
 .title {
     font-family: "Satisfy";
 }
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
