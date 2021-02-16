@@ -2,7 +2,7 @@ body {
  background-color: darkslategray;
     font-family: "Raleway";
     text-align: center;
-    
+    color: cornsilk;
     
 }
 
@@ -16,7 +16,7 @@ nav ul li {
 
 nav ul li a {
     
-    color: black;
+    color: cornsilk;
     font-size: small;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -44,9 +44,14 @@ nav ul {
 
 .title {
     font-family: "Satisfy";
+    font-size: 64px;
 }
 
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: center;
+}
+
+.subtitle {
+    font-size: small;
 }
