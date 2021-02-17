@@ -16,7 +16,7 @@ nav ul li {
 
 nav ul li a {
     
-    color:darkslategray;
+    color:cornsilk;
     font-size: small;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -76,6 +76,14 @@ p {
 }
 
 
-.xcon {
+/* .xcon-facebook {
+    color: darkslategray !important; 
+} */
+
+#section2 {
     color: darkslategray;
+}
+
+.info-about {
+    text-decoration: none;
 }
