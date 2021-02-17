@@ -16,18 +16,20 @@ nav ul li {
 
 nav ul li a {
     
-    color: cornsilk;
+    color:darkslategray;
     font-size: small;
     padding-right: 2rem;
     padding-left: 2rem;
     font-family: "Raleway";
     text-decoration: none;
     
+    
 }
 
 nav ul {
     display: flex;
     text-align: center;
+    
 }
 
 ul {
@@ -55,6 +57,8 @@ ul {
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: center;
+  
+  
 }
 
 .subtitle {
@@ -64,4 +68,14 @@ ul {
 h1 {
     font-family: "Satisfy";
     font-size: 64px;
+}
+
+p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.xcon {
+    color: darkslategray;
 }
