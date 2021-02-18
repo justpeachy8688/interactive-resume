@@ -10,11 +10,11 @@ body {
     color: black;
 }
 
-nav ul li {
+/* nav ul li {
     list-style-type: none;
 }
 
-nav ul li a {
+ul li a {
     
     color:cornsilk;
     font-size: small;
@@ -24,16 +24,17 @@ nav ul li a {
     text-decoration: none;
     
     
-}
-
-nav ul {
+    
+} */
+/* 
+ul {
     display: flex;
     text-align: center;
     
-}
+} */
 
 ul {
-    padding-top: 2rem;
+    padding-top: 2px;
 }
 
 .column {
@@ -54,7 +55,7 @@ ul {
     padding-top: 6rem;
 }
 
-.navbar-expand-lg {
+.nav-item {
     flex-wrap: nowrap;
     justify-content: center;
 }
@@ -86,6 +87,63 @@ p {
     text-decoration: none;
 }
 
-.nav-link {
+/* .nav-link {
     position: fixed;
+} */
+
+#navbar {
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: cornsilk;
+    font-size: smaller;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#about ul li {
+    list-style: none;
+}
+
+label {
+    font-weight: bolder !important;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+#section1 {
+height: 800px;
+background-color: slategray;
+}
+
+#section2 {
+height: 800px;
+background-color: white;
+}
+
+#section3 {
+    height: 800px;
+    background-color: rgb(28, 28, 70);
+    color: cornsilk
 }

@@ -20,38 +20,22 @@
     <!--Favicon-->
     <link rel="icon" href="favicon-img.png">
     <link rel="manifest" href="/site.webmanifest">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        #section1 {
-            height: 800px;
-            background-color: slategray;
-        }
-
-        #section2 {
-            height: 800px;
-            background-color: white;
-        }
-    </style>
 </head>
 
 <body>
-
-    <!-- <div class="container"> -->
-    <!--NAV-->
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg bg-dark"> -->
+    <div id="navbar" class="navbar navbar-expand-lg">
         <!--LINKS-->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="#section1">HOME</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#section2">ABOUT</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#section3">RESUME</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#section4">SKILLS</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#section5">PORTFOLIO</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#section6">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section2">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section3">RESUME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section4">SKILLS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section5">PORTFOLIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section6">CONTACT</a></li>
         </ul>
-        <!-- 
+    </div>
+    <!-- 
         <div class="social">
             <ul>
                 <li><a href="#"><i class="xcon-facebook"></i></a></li>
@@ -61,7 +45,6 @@
                 </a>
             </ul>
         </div> -->
-    </nav>
 
     <!--FIRST SECTION-->
     <div id="section1" class="main">
@@ -92,27 +75,27 @@
             future holds
             and look forward to growing as a Full Stack Web Developer!</p>
         <div class="container">
-            <div class="info-about">
+            <div id="about" class="info-about">
                 <ul>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Birthday:</label> 06.27.1993</span>
+                        <span><label>*Birthday:</label> 06.27.1993</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Location:</label> Anchorage, Alaska</span>
+                        <span><label>*Location:</label> Anchorage, Alaska</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Study:</label> University of Washington</span>
+                        <span><label>*Study:</label> University of Washington</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Mail:</label> tsanders3515@gmail.com</span>
+                        <span><label>*Mail:</label> tsanders3515@gmail.com</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Age:</label> 27</span>
+                        <span><label>*Age:</label> 27</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
@@ -120,17 +103,20 @@
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Degree:</label> Associate in Arts</span>
+                        <span><label>*Degree:</label> Associate in Arts</span>
                     </li>
                     <li>
                         <img class="svg" src="" alt="" />
-                        <span><label>Phone:</label> (907)-201-2131</span>
+                        <span><label>*Phone:</label> (907)-201-2131</span>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
+    <div id="section3">
+        <h1 class="title">resume</h1>
+    </div>
+    <script src="./assets/script.js"></script>
 </body>
 
 <!-- <a href="./About-me.html" class="btn-scroll scrollto" title="Scroll Down"><i
