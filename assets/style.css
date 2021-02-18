@@ -37,15 +37,15 @@ ul {
 }
 
 .column {
- font-family: "Raleway";   
+    font-family: "Raleway";   
 }
 
 /* .nav-menu {
     font-family: "Satisfy";
     text-align: center;
     display: flex;
-     position: relative;
-  justify-content: center;
+    position: relative;
+    justify-content: center;
 } */
 
 .title {
@@ -55,10 +55,8 @@ ul {
 }
 
 .navbar-expand-lg {
-  flex-wrap: nowrap;
-  justify-content: center;
-  
-  
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .subtitle {
@@ -86,4 +84,8 @@ p {
 
 .info-about {
     text-decoration: none;
+}
+
+.nav-link {
+    position: fixed;
 }
