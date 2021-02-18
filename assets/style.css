@@ -95,6 +95,7 @@ p {
 #navbar {
     overflow: hidden;
     background-color: darkslategray;
+    /* background-color: transparent; */
 }
 
 #navbar a {
@@ -140,7 +141,7 @@ background-color: slategray;
 
 #section2 {
 height: 800px;
-background-color: white;
+background-color: rgb(147, 199, 241);
 }
 
 #section3 {
@@ -151,4 +152,14 @@ background-color: white;
 
 .card-title {
     color: darkslategray;
+}
+
+.card {
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+#section4 {
+    height: 800px;
+    background-color: rgb(161, 67, 79);
 }
