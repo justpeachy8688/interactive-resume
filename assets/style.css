@@ -72,7 +72,7 @@ h1 {
 p {
     padding-left: 4rem;
     padding-right: 4rem;
-    color: darkslategray;
+    color: #000202;
 }
 
 
@@ -145,9 +145,19 @@ background-color: rgb(147, 199, 241);
 }
 
 #section3 {
-    height: 800px;
+    height: 900px;
     background-color: rgb(28, 28, 70);
     color: cornsilk
+}
+
+#section4 {
+    height: 800px;
+    background-color: rgb(161, 67, 79);
+}
+
+#section5 {
+    height 800px;
+    background-color: chocolate;
 }
 
 .card-title {
@@ -159,10 +169,6 @@ background-color: rgb(147, 199, 241);
     padding-bottom: 10px;
 }
 
-#section4 {
-    height: 800px;
-    background-color: rgb(161, 67, 79);
-}
 
 .fa {
 padding: 20px;
@@ -187,14 +193,31 @@ background: cornsilk
 }
 
 /* JUST FOR SHOW*/
-.fa-instagram {
-  background: #125688;
+.fa-facebook {
+  background: #3B5998;
   color: white;
+}
+
+
+/* JUST FOR SHOW*/
+.fa-instagram {
+background: #125688;
+color: white;
 }
 
 /* JUST FOR SHOW*/
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+label {
+    font-weight: bolder !important;
+}
+
+button {
+background: rgb(23, 135, 240);
+color: white;
+border-radius: 40%;
 }

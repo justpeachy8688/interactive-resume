@@ -15,3 +15,12 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+// function getCurrentDate() {
+//     var today = new Date();
+//     today.toLocaleDateString();
+//     //console.log(today)
+//     document.getElementById("date").innerHTML = today;
+// }
+
+// getCurrentDate();
