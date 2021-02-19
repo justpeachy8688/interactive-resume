@@ -160,6 +160,12 @@ background-color: rgb(147, 199, 241);
     background-color: chocolate;
 }
 
+#section6 {
+    height: 800px;
+    background-color: rgb(247, 189, 197);
+}
+
+
 .card-title {
     color: darkslategray;
 }
@@ -220,4 +226,13 @@ button {
 background: rgb(23, 135, 240);
 color: white;
 border-radius: 40%;
+}
+
+a {
+    /* text-decoration: none; */
+    color: cornsilk
+}
+
+footer {
+    background-color: darkgray;
 }
