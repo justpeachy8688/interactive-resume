@@ -1,133 +1,90 @@
 body {
- /* background-color: slategray; */
-    font-family: "Raleway";
-    text-align: center;
-    color: cornsilk;
-    
+font-family: "Raleway";
+text-align: center;
+color: cornsilk; 
 }
 
 .button {
-    color: black;
+color: black;
 }
 
-/* nav ul li {
-    list-style-type: none;
-}
-
-ul li a {
-    
-    color:cornsilk;
-    font-size: small;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    font-family: "Raleway";
-    text-decoration: none;
-    
-    
-    
-} */
-/* 
 ul {
-    display: flex;
-    text-align: center;
-    
-} */
-
-ul {
-    padding-top: 2px;
+padding-top: 2px;
 }
 
 .column {
-    font-family: "Raleway";   
+font-family: "Raleway";   
 }
 
-/* .nav-menu {
-    font-family: "Satisfy";
-    text-align: center;
-    display: flex;
-    position: relative;
-    justify-content: center;
-} */
-
 .title {
-    font-family: "Satisfy";
-    font-size: 64px;
-    padding-top: 6rem;
+font-family: "Satisfy";
+font-size: 64px;
+padding-top: 6rem;
 }
 
 .nav-item {
-    flex-wrap: nowrap;
-    justify-content: center;
+flex-wrap: nowrap;
+justify-content: center;
 }
 
 .subtitle {
-    font-size: small;
+font-size: small;
 }
 
 h1 {
-    font-family: "Satisfy";
-    font-size: 64px;
+font-family: "Satisfy";
+font-size: 64px;
 }
 
 p {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    color: #000202;
+padding-left: 4rem;
+padding-right: 4rem;
+color: #000202;
 }
 
-
-/* .xcon-facebook {
-    color: darkslategray !important; 
-} */
-
 #section2 {
-    color: darkslategray;
+color: darkslategray;
 }
 
 .info-about {
-    text-decoration: none;
+text-decoration: none;
 }
 
-/* .nav-link {
-    position: fixed;
-} */
-
 #navbar {
-    overflow: hidden;
-    background-color: darkslategray;
-    /* background-color: transparent; */
+overflow: hidden;
+background-color: darkslategray;
 }
 
 #navbar a {
-    float: left;
-    display: block;
-    color: cornsilk;
-    font-size: smaller;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+/* float: left; */
+display: block;
+color: cornsilk;
+font-size: smaller;
+text-align: center;
+padding: 14px;
+text-decoration: none;
 }
 
 .content {
-    padding: 16px;
+padding: 16px;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 .sticky + .content {
-    padding-top: 60px;
+padding-top: 60px;
 }
 
 #about ul li {
-    list-style: none;
+list-style: none;
 }
 
 label {
-    font-weight: bolder !important;
+font-weight: bolder !important;
 }
 
 html {
@@ -156,7 +113,7 @@ background-color: rgb(147, 199, 241);
 }
 
 #section5 {
-    height 800px;
+    height: 900px;
     background-color: chocolate;
 }
 
@@ -200,8 +157,8 @@ background: cornsilk
 
 /* JUST FOR SHOW*/
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+background: #3B5998;
+color: white;
 }
 
 
@@ -229,7 +186,6 @@ border-radius: 40%;
 }
 
 a {
-    /* text-decoration: none; */
     color: cornsilk
 }
 
