@@ -21,11 +21,11 @@ font-family: "Satisfy";
 font-size: 64px;
 padding-top: 6rem;
 }
-
+/* 
 .nav-item {
 flex-wrap: nowrap;
 justify-content: center;
-}
+} */
 
 .subtitle {
 font-size: small;
@@ -60,7 +60,7 @@ background-color: darkslategray;
 display: block;
 color: cornsilk;
 font-size: smaller;
-text-align: center;
+/* text-align: center; */
 padding: 14px;
 text-decoration: none;
 }
