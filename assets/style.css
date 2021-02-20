@@ -204,3 +204,7 @@ footer {
 .card {
     background-color: rgb(28, 28, 70);
 }
+
+.education {
+    list-style-type: none;
+}
