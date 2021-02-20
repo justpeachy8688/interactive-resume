@@ -37,8 +37,8 @@ font-size: 64px;
 }
 
 p {
-padding-left: 4rem;
-padding-right: 4rem;
+padding-left: 1rem;
+padding-right: 1rem;
 color: #000202;
 }
 
@@ -124,7 +124,11 @@ background-color: rgb(147, 199, 241);
 
 
 .card-title {
-    color: darkslategray;
+    color:cornsilk;
+}
+
+.card-text {
+    color: cornsilk !important;
 }
 
 .card {
@@ -195,4 +199,8 @@ footer {
 
 .navbar-brand {
     float: left;
+}
+
+.card {
+    background-color: rgb(28, 28, 70);
 }
