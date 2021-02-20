@@ -192,3 +192,7 @@ a {
 footer {
     background-color: darkgray;
 }
+
+.navbar-brand {
+    float: left;
+}
