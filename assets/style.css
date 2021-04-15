@@ -1,25 +1,25 @@
 body {
-font-family: "Raleway";
-text-align: center;
-color: cornsilk; 
+  font-family: "Raleway";
+  text-align: center;
+  color: cornsilk;
 }
 
 .button {
-color: black;
+  color: limegreen;
 }
 
 ul {
-padding-top: 2px;
+  padding-top: 2px;
 }
 
 .column {
-font-family: "Raleway";   
+  font-family: "Raleway";
 }
 
 .title {
-font-family: "Satisfy";
-font-size: 64px;
-padding-top: 6rem;
+  font-family: "Satisfy";
+  /* font-size: 64px; */
+  /* padding-top: 3rem; */
 }
 /* 
 .nav-item {
@@ -28,183 +28,217 @@ justify-content: center;
 } */
 
 .subtitle {
-font-size: small;
+  font-size: small;
 }
 
 h1 {
-font-family: "Satisfy";
-font-size: 64px;
+  font-family: "Satisfy";
+  font-size: 64px;
+}
+
+h2 {
+  color: rgb(216, 190, 245);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 p {
-padding-left: 1rem;
-padding-right: 1rem;
-color: #000202;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  color: rgb(216, 190, 245);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #section2 {
-color: darkslategray;
+  color: rgb(216, 190, 245);
 }
 
 .info-about {
-text-decoration: none;
+  text-decoration: none;
 }
 
 #navbar {
-overflow: hidden;
-background-color: darkslategray;
+  overflow: hidden;
+  background-color: black;
 }
 
 #navbar a {
-/* float: left; */
-display: block;
-color: cornsilk;
-font-size: smaller;
-/* text-align: center; */
-padding: 14px;
-text-decoration: none;
+  /* float: left; */
+  display: block;
+  color: rgb(216, 190, 245);
+  font-size: 15px;
+  /* text-align: center; */
+  padding: 14px;
+  text-decoration: none;
 }
 
 .content {
-padding: 16px;
+  padding: 16px;
 }
 
 .sticky {
-position: fixed;
-top: 0;
-width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .sticky + .content {
-padding-top: 60px;
+  padding-top: 60px;
 }
 
 #about ul li {
-list-style: none;
+  list-style: none;
 }
 
 label {
-font-weight: bolder !important;
+  font-weight: bolder !important;
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #section1 {
-height: 800px;
-background-color: slategray;
+  height: 1000px;
+  background-color: black;
 }
 
 #section2 {
-height: 800px;
-background-color: rgb(147, 199, 241);
+  height: 800px;
+  background-color: black;
 }
 
 #section3 {
-    height: 900px;
-    background-color: rgb(28, 28, 70);
-    color: cornsilk
+  height: 800px;
+  background-color: black;
+  color: rgb(216, 190, 245);
 }
 
 #section4 {
-    height: 800px;
-    background-color: rgb(161, 67, 79);
+  height: 800px;
+  background-color: black;
 }
 
 #section5 {
-    height: 900px;
-    background-color: chocolate;
+  height: 900px;
+  background-color: black;
 }
 
 #section6 {
-    height: 800px;
-    background-color: rgb(247, 189, 197);
+  height: 800px;
+  background-color: black;
 }
 
-
 .card-title {
-    color:cornsilk;
+  color: rgb(216, 190, 245);
+  font-weight: 600;
 }
 
 .card-text {
-    color: cornsilk !important;
+  color: rgb(216, 190, 245);
+  font-size: 15px;
 }
 
 .card {
-    padding: 10px;
-    padding-bottom: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
 }
 
-
 .fa {
-padding: 20px;
-font-size: 30px;
-width: 50px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-linkedin {
-background: #007bb5;
-color: white;
+  background: snow;
+  color: black;
 }
 
 .fa-github {
-background: cornsilk
+  background: black;
 }
 
 /* JUST FOR SHOW*/
 .fa-facebook {
-background: #3B5998;
-color: white;
+  background: #3b5998;
+  color: white;
 }
-
 
 /* JUST FOR SHOW*/
 .fa-instagram {
-background: #125688;
-color: white;
+  background: #125688;
+  color: white;
 }
 
 /* JUST FOR SHOW*/
 .fa-snapchat-ghost {
-background: #fffc00;
-color: white;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 label {
-    font-weight: bolder !important;
+  font-weight: bolder !important;
 }
 
 button {
-background: rgb(23, 135, 240);
-color: white;
-border-radius: 40%;
+  background: rgb(23, 135, 240);
+  color: white;
+  border-radius: 40%;
 }
 
 a {
-    color: cornsilk
+  color: cornsilk;
 }
 
 footer {
-    background-color: darkgray;
+  background-color: black;
 }
 
 .navbar-brand {
-    float: left;
+  float: left;
 }
 
 .card {
-    background-color: rgb(28, 28, 70);
+  background-color: black;
 }
 
 .education {
-    list-style-type: none;
+  list-style-type: none;
 }
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(218, 169, 250), rgb(72, 1, 122));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.education {
+  color: rgb(216, 190, 245);
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.skills {
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+
+li {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+}
+/* 
+.page-title {
+  padding-top: 4rem;
+} */
