@@ -1,7 +1,6 @@
 body {
   font-family: "Raleway";
   text-align: center;
-  color: cornsilk;
 }
 
 .button {
@@ -18,14 +17,14 @@ ul {
 
 .title {
   font-family: "Satisfy";
-  /* font-size: 64px; */
-  /* padding-top: 3rem; */
+  font-size: 64px;
+  padding-top: 3rem;
 }
-/* 
-.nav-item {
-flex-wrap: nowrap;
-justify-content: center;
-} */
+
+.nav-link {
+  font-size: x-large;
+  font-weight: 300;
+}
 
 .subtitle {
   font-size: small;
@@ -48,10 +47,6 @@ p {
   color: rgb(216, 190, 245);
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
-}
-
-#section2 {
-  color: rgb(216, 190, 245);
 }
 
 .info-about {
@@ -105,12 +100,13 @@ html {
 }
 
 #section2 {
-  height: 800px;
+  height: 600px;
   background-color: black;
+  color: rgb(216, 190, 245);
 }
 
 #section3 {
-  height: 800px;
+  height: 1200px;
   background-color: black;
   color: rgb(216, 190, 245);
 }
@@ -121,7 +117,7 @@ html {
 }
 
 #section5 {
-  height: 900px;
+  height: 2800px;
   background-color: black;
 }
 
@@ -242,3 +238,15 @@ li {
 .page-title {
   padding-top: 4rem;
 } */
+
+.project-pic {
+  margin-top: 80px;
+  border: 5px solid #555;
+}
+
+.project-name {
+  padding-top: 40px;
+  font-weight: 300;
+  color: white;
+  font-size: x-large;
+}
