@@ -17,13 +17,15 @@ ul {
 
 .title {
   font-family: "Satisfy";
-  font-size: 64px;
+  font-size: 80px;
   padding-top: 3rem;
 }
 
 .nav-link {
-  font-size: x-large;
+  font-size: large;
   font-weight: 300;
+  text-align: left;
+  padding-left: 80px;
 }
 
 .subtitle {
@@ -141,7 +143,7 @@ html {
   padding-bottom: 10px;
 }
 
-.fa {
+/* .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -163,24 +165,24 @@ html {
   background: black;
 }
 
-/* JUST FOR SHOW*/
+JUST FOR SHOW
 .fa-facebook {
   background: #3b5998;
   color: white;
 }
 
 /* JUST FOR SHOW*/
-.fa-instagram {
+/* .fa-instagram {
   background: #125688;
   color: white;
 }
 
-/* JUST FOR SHOW*/
+/* JUST FOR SHOW
 .fa-snapchat-ghost {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+}*/
 
 label {
   font-weight: bolder !important;
@@ -193,11 +195,12 @@ button {
 }
 
 a {
-  color: cornsilk;
+  color: rgb(216, 190, 245);
 }
 
-footer {
+#footer {
   background-color: black;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -249,4 +252,23 @@ li {
   font-weight: 300;
   color: white;
   font-size: x-large;
+}
+
+.linkedin {
+  text-align: right;
+  text-decoration: none;
+  padding-right: 80px;
+}
+
+.github {
+  text-align: center;
+  text-decoration: none;
+}
+
+.profile-header {
+  font-weight: 600;
+}
+
+.contact {
+  text-align: center;
 }
